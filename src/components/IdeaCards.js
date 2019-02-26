@@ -66,9 +66,9 @@ const data = [
 const IdeaCards = () => {
   return (
     <div>
-      {data.map(item => {
+      {data.map((item, index) => {
         return (
-          <div>
+          <div key={index}>
             <img src={item.image} alt={item.title} />
             <h3>{item.title}</h3>
             <p>{item.description}</p>
