@@ -1,8 +1,14 @@
 import React from 'react'
 
+import Home from './pages/Home'
+
 class App extends React.Component {
   render() {
-    return <div>Idea Byte</div>
+    return (
+      <div>
+        <Home />
+      </div>
+    )
   }
 }
 

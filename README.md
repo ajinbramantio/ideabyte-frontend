@@ -5,3 +5,5 @@
 ```sh
 yarn start
 ```
+
+Open localhost:3000
